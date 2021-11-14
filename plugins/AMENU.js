@@ -26,21 +26,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     var respoimage = await axios.get(`${Config.MENU_LOGO}`, { responseType: 'arraybuffer' })
     await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `        
 
- *╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」*
- │
- *│ᴛʏᴘᴇ: .`+Config.PANEL_COMMAND+` get full Command list*
- ├─────────●●►
- *│🌼HEY,*  `+wish+`
- *│👤Name:* `+Config.BOT_NAME+`
- *│💎Role:* Developer
- *│Time⌚:* `+time+`
- *│📡Server:* Digital Ocean
- *│📦Frameworks:* Nodejs
- *│☬Working As*
- *│🛡️ `+Config.WORKTYPE+`*
- │ _©️ᴀᴍᴀᴢᴏɴᴇ-ᴛᴇᴇɴᴜ_
- ╰──────────●●►
-
+සසියගේ පුම්ක සුදු බොටා තමා හුම්තියේ සෙස්ස්.....
  ╭──────────●●►
 *│🛡️BOT COMMANDS*
  │   ───────
